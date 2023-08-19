@@ -1,0 +1,131 @@
+/* .header {
+    background-image: linear-gradient(to top left , red,rgb(255, 0, 200),rgb(25, 0, 255),rgb(0, 0, 0));
+    text-align: center;
+    padding: 30px;
+    margin: 0 750px auto 750px;
+    width: 100%;
+  } */
+ /* body{
+    background:linear-gradient(-135deg,#000000,#888786);
+
+ } */
+ *{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+html,body{
+    display: grid;
+    height: 70%;
+    place-items:center;
+}
+.wrapper{
+    width: 380px;
+    background: #fff;
+    border: radius 15px;
+    box-shadow: 15px 15px 25px black;
+    border-radius: 15px;
+}
+.wrapper .title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 15px 15px 0px 0px;
+    background:linear-gradient(-135deg,#000000,#3fc6c4,rgb(246, 15, 238));
+}
+.wrapper form{
+    padding: 10px 30px 60px 30px;
+}
+.wrapper form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top:20px;
+}
+.wrapper form .field input{
+    height: 100%;
+    width: 100%;
+    padding-left:20px ;
+    border-radius: 25px;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid lightgrey;
+    transition: all 0.8s ease;
+}
+.wrapper form .field input:focus{
+    border-color:#000cf4 ; /*لون المربع*/
+}
+.wrapper form .field label{
+    position: absolute;
+    top:50%;
+    font-size: 15px;
+    color: #333;
+    transform: translate(-500%,-50%);
+    pointer-events: none;
+    transition: all 0.8s ease;
+}
+.wrapper form .field input:focus ~ label{
+    top: 0%;
+    color:#002aff;
+    background: #fff;
+    font-size: 15px;
+    transform: translate(-500%,-50%);
+}
+.wrapper form .pass-link{
+    color: #000cf4;
+    margin:10px 0 0 10px;
+}
+.wrapper form .field input[type="submit"]{
+    color: #fff;
+    background:linear-gradient(-135deg,#000000,#398a89,rgb(188, 13, 182));
+    font-size:25px;
+    font-weight: 500;
+    border: none;
+    padding-left: 0px;
+    cursor:pointer;
+    transition: all 0.3 ease;
+}
+.wrapper form .field input[type="submit"]:active{
+    transform: scale(0.95);
+
+
+}
+.wrapper form .signup-link{
+    text-align: center;
+    margin-top: 20px;
+    color:#262626;
+}
+.wrapper form .signup-link a{
+    color:#000cf4;
+    text-decoration: none;
+}
+/* The navbar container */
+.topnav {
+    margin-top: 1px;
+    margin-bottom:-35px;
+    border-radius: 0px 10px 0px 20px;
+    overflow: hidden;
+    background:linear-gradient(-135deg,#000000,#398a89,rgb(188, 13, 182));
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Links - change color on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  input[type="submit"]:hover{
+    color: green;
+  }
