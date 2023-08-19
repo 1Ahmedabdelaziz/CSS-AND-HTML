@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background:linear-gradient(rgb(0, 0, 0),#222);
+    height: 100vh;  /* عشان اللون ييجي للشاشه كلها */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.conte{
+    width: 40%;
+    height: 100%;
+    background:rgba(255,255,255,0.1);
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+
+/* body .card-img { 
+    background:linear-gradient(rgb(0, 0, 0),#222);
+      /* عشان اللون ييجي للشاشه كلها */
+    /* height: 100vh;    */
+
+/* } */ 
+.title{
+    /* background:linear-gradient(rgb(0, 0, 0),#222);   */
+    /* color: ; */
+    font-size: 40px;
+    font-size: 30px;
+    /* text-transform: uppercase; */
+    font-weight: 700;
+    align-items: center;
+    padding: 30px 50px;
+} 
+.card-img{
+    width:50px;
+    height:30px;
+    align-items:left;
+
+} 
+.card-img img{
+    width: 300px;
+    height: 300px;
+
+    border-radius: 40px;
+    object-fit: cover;
+
+}  
+.title a{
+    color: rgb(182, 11, 11);
+    text-decoration: none;
+}
+.card-title{
+    color: rgb(136, 0, 0);
+    font-weight: bold;
+}
+
+.card{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 30px auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25),-5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+    transition: 0.4s;
+}
+.card-img{
+    width:inherit;
+    height: inherit;
+}
+.card-img img{
+    width: inherit;
+    height: inherit;
+    border-radius: 40px;
+    object-fit: cover;
+
+}
+.title a:hover{
+    background: white;
+}
+.card:hover{
+    transform: scale(0.9,0.9);
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.25),-5px -5px 30px 7px rgba(0, 0, 0, 0.22);
+} 
